@@ -1,0 +1,19 @@
+name: iamrich
+description: A new Flutter application.
+version: 1.0.0+1
+#"every indent is 2 spaces, and that indicates children, / adds everything in images as an asset"
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
